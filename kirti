@@ -1,0 +1,16 @@
+x=int(input("Enter the number of elements: "))
+inputlist=[]
+print("Enter the elements separately in new input box")
+for i in range (0,x) :
+    j=input()
+    inputlist.append(j)
+print ("The positive numbers are:")
+for element in inputlist:
+    if int(element) >= 0 :
+        print(element, end=" ")
+list1=list();
+for element in inputlist:
+    if int(element) >= 0 :
+        list1.append(int(element))
+print("\n")
+print(list1)
